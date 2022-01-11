@@ -7,18 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE42CDC2278A59F500330E02 /* firstpage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE42CDC1278A59F500330E02 /* firstpage.swift */; };
+		CE42CDC4278A5A0400330E02 /* home.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE42CDC3278A5A0400330E02 /* home.swift */; };
+		CE42CDC6278A5A3200330E02 /* NewRecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE42CDC5278A5A3200330E02 /* NewRecipeView.swift */; };
+		CE42CDC8278A5A8800330E02 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE42CDC7278A5A8800330E02 /* FavoritesView.swift */; };
+		CE42CDCA278A5A9B00330E02 /* SttingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE42CDC9278A5A9B00330E02 /* SttingsView.swift */; };
+		CE42CDCC278A5D3800330E02 /* TapBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE42CDCB278A5D3800330E02 /* TapBar.swift */; };
+		CE42CDCE278A60A400330E02 /* RecipeMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE42CDCD278A60A400330E02 /* RecipeMode.swift */; };
+		CE42CDD1278A6BD100330E02 /* RecipeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE42CDD0278A6BD100330E02 /* RecipeCard.swift */; };
+		CE42CDD3278B7B7D00330E02 /* RecipeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE42CDD2278B7B7D00330E02 /* RecipeList.swift */; };
+		CE42CDD6278B838E00330E02 /* RecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE42CDD5278B838E00330E02 /* RecipeView.swift */; };
+		CE42CDD8278BA17600330E02 /* CategorysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE42CDD7278BA17600330E02 /* CategorysView.swift */; };
 		CE5A261F278A50710002C048 /* FoodShopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5A261E278A50710002C048 /* FoodShopApp.swift */; };
-		CE5A2621278A50710002C048 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5A2620278A50710002C048 /* ContentView.swift */; };
+		CE5A2621278A50710002C048 /* AddRecipetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5A2620278A50710002C048 /* AddRecipetView.swift */; };
 		CE5A2623278A50710002C048 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE5A2622278A50710002C048 /* Assets.xcassets */; };
 		CE5A2626278A50710002C048 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE5A2625278A50710002C048 /* Preview Assets.xcassets */; };
+		CE5A2630278A55540002C048 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5A262F278A55540002C048 /* CategoryView.swift */; };
+		CE5EAF73278BB20200A8F818 /* RecipesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5EAF72278BB20200A8F818 /* RecipesViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE42CDC1278A59F500330E02 /* firstpage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstpage.swift; sourceTree = "<group>"; };
+		CE42CDC3278A5A0400330E02 /* home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = home.swift; sourceTree = "<group>"; };
+		CE42CDC5278A5A3200330E02 /* NewRecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRecipeView.swift; sourceTree = "<group>"; };
+		CE42CDC7278A5A8800330E02 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		CE42CDC9278A5A9B00330E02 /* SttingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SttingsView.swift; sourceTree = "<group>"; };
+		CE42CDCB278A5D3800330E02 /* TapBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapBar.swift; sourceTree = "<group>"; };
+		CE42CDCD278A60A400330E02 /* RecipeMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeMode.swift; sourceTree = "<group>"; };
+		CE42CDD0278A6BD100330E02 /* RecipeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCard.swift; sourceTree = "<group>"; };
+		CE42CDD2278B7B7D00330E02 /* RecipeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeList.swift; sourceTree = "<group>"; };
+		CE42CDD5278B838E00330E02 /* RecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeView.swift; sourceTree = "<group>"; };
+		CE42CDD7278BA17600330E02 /* CategorysView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategorysView.swift; sourceTree = "<group>"; };
 		CE5A261B278A50700002C048 /* FoodShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE5A261E278A50710002C048 /* FoodShopApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodShopApp.swift; sourceTree = "<group>"; };
-		CE5A2620278A50710002C048 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CE5A2620278A50710002C048 /* AddRecipetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRecipetView.swift; sourceTree = "<group>"; };
 		CE5A2622278A50710002C048 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE5A2625278A50710002C048 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE5A262F278A55540002C048 /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
+		CE5EAF72278BB20200A8F818 /* RecipesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +58,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE42CDBF278A59A500330E02 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				CE5EAF72278BB20200A8F818 /* RecipesViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		CE42CDC0278A59BF00330E02 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CE42CDCD278A60A400330E02 /* RecipeMode.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CE42CDCF278A6B8200330E02 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				CE42CDD0278A6BD100330E02 /* RecipeCard.swift */,
+				CE42CDD2278B7B7D00330E02 /* RecipeList.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		CE42CDD4278B835000330E02 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				CE42CDD5278B838E00330E02 /* RecipeView.swift */,
+				CE42CDD7278BA17600330E02 /* CategorysView.swift */,
+				CE5A2620278A50710002C048 /* AddRecipetView.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
 		CE5A2612278A50700002C048 = {
 			isa = PBXGroup;
 			children = (
@@ -52,8 +113,12 @@
 			isa = PBXGroup;
 			children = (
 				CE5A261E278A50710002C048 /* FoodShopApp.swift */,
-				CE5A2620278A50710002C048 /* ContentView.swift */,
 				CE5A2622278A50710002C048 /* Assets.xcassets */,
+				CE5A262C278A507E0002C048 /* Screens */,
+				CE42CDD4278B835000330E02 /* Detail */,
+				CE42CDCF278A6B8200330E02 /* Components */,
+				CE42CDBF278A59A500330E02 /* ViewModels */,
+				CE42CDC0278A59BF00330E02 /* Models */,
 				CE5A2624278A50710002C048 /* Preview Content */,
 			);
 			path = FoodShop;
@@ -65,6 +130,20 @@
 				CE5A2625278A50710002C048 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CE5A262C278A507E0002C048 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				CE42CDC1278A59F500330E02 /* firstpage.swift */,
+				CE42CDCB278A5D3800330E02 /* TapBar.swift */,
+				CE42CDC3278A5A0400330E02 /* home.swift */,
+				CE5A262F278A55540002C048 /* CategoryView.swift */,
+				CE42CDC5278A5A3200330E02 /* NewRecipeView.swift */,
+				CE42CDC7278A5A8800330E02 /* FavoritesView.swift */,
+				CE42CDC9278A5A9B00330E02 /* SttingsView.swift */,
+			);
+			path = Screens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +216,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE5A2621278A50710002C048 /* ContentView.swift in Sources */,
+				CE5A2621278A50710002C048 /* AddRecipetView.swift in Sources */,
 				CE5A261F278A50710002C048 /* FoodShopApp.swift in Sources */,
+				CE5A2630278A55540002C048 /* CategoryView.swift in Sources */,
+				CE42CDCC278A5D3800330E02 /* TapBar.swift in Sources */,
+				CE42CDCA278A5A9B00330E02 /* SttingsView.swift in Sources */,
+				CE42CDC6278A5A3200330E02 /* NewRecipeView.swift in Sources */,
+				CE42CDD6278B838E00330E02 /* RecipeView.swift in Sources */,
+				CE42CDCE278A60A400330E02 /* RecipeMode.swift in Sources */,
+				CE42CDD8278BA17600330E02 /* CategorysView.swift in Sources */,
+				CE42CDD3278B7B7D00330E02 /* RecipeList.swift in Sources */,
+				CE42CDC8278A5A8800330E02 /* FavoritesView.swift in Sources */,
+				CE42CDC4278A5A0400330E02 /* home.swift in Sources */,
+				CE5EAF73278BB20200A8F818 /* RecipesViewModel.swift in Sources */,
+				CE42CDD1278A6BD100330E02 /* RecipeCard.swift in Sources */,
+				CE42CDC2278A59F500330E02 /* firstpage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
