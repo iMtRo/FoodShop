@@ -1,6 +1,5 @@
 ### Hi there 👋, My name is Maxmudov Ilyos
 #### I am IOS developer
-![I am IOS developer]
 
 <img width="469" alt="Screen Shot 2022-03-30 at 23 03 30" src="https://user-images.githubusercontent.com/97552255/160901821-740cc1ec-cada-48bb-b191-cd024356bca6.png"><img width="469" alt="Screen Shot 2022-03-30 at 23 03 42" src="https://user-images.githubusercontent.com/97552255/160901845-535ff085-3aa9-4ad9-84ab-4f567652107f.png"><img width="469" alt="Screen Shot 2022-03-30 at 23 03 58" src="https://user-images.githubusercontent.com/97552255/160901901-04636ec2-e8b4-40e3-9ad0-9d4187b64cfc.png">
 
